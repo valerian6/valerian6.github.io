@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+</head>
+
+<body>
+    <h3>Contact me</h3>
+    <ul>
+        <li>Here's my <a href="#">e-mail</a> </li>
+        <li>Here's my <a href="#">Facebook</a> </li>
+        <li>Here's my <a href="#">LinkedIn</a> </li>
+    </ul>
+    <hr>
+    <!-- mailto: reprezinta mail-ul la care sa fie trimis mesajul, post inseamna preluarea textului pentru a fi trimis in mail-->
+    <!-- atributul "name" reprezinta efectiv ce ar trebui sa insemne, ce reprezinta un buton/bloc etc, de ex. numele-tau-->
+    <form action="mailto:constantinionut03@outlook.com" method="post" enctype="text/plain">
+        <label name="numele-tau">Numele tau:</label>
+        <input type="text">
+        <input type="submit">
+        <br>
+        <br>
+        <label name="mail-ul-tau">Mail-ul tau:</label>
+        <input type="email">
+        <br>
+        <br>
+        <label name="mesajul-tau">Mesajul tau:</label>
+        <textarea name="name" id="" cols="10" rows="3"></textarea>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
